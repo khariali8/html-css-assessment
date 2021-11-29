@@ -1,0 +1,79 @@
+    /* Your styles go in here. */
+    /*... is 600px wide when the screen is greater than or equal to 600px wide */
+
+@media screen and (min-width: 600px){
+    .name-container{
+        display: grid;
+        grid-template-columns: 600px;
+        box-sizing: border-box;
+        }
+
+
+    .pet-type-container{
+        display:grid;
+        box-sizing: border-box;
+        grid-template-columns: 600px
+    }
+
+    .pet-bio-container{
+        display: grid;
+        box-sizing: border-box;
+        grid-template-columns: 600px;
+    }
+
+    .pet-owner-email-container{
+        display: grid;
+        box-sizing: border-box;
+        grid-template-columns: 600px;
+    }
+
+    .submission-button-container{
+        display: grid;
+        grid-template-columns: 600px;
+        box-sizing: border-box;
+    }
+
+    .reset-button-container{
+        display: grid;
+        grid-template-columns: 600px;
+    }
+}
+
+@media screen and (max-width: 599px){
+    .name-container{
+        display:grid;
+        grid-template-columns: auto
+    }
+
+    .pet-type-container{
+        display: grid;
+        grid-template-columns: auto;
+
+    }
+
+    .pet-bio-container{
+        display:grid;
+        grid-template-columns: auto;
+    }
+
+    .pet-owner-email-container{
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .submission-button-container{
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .reset-button-container{
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+
+
+}
+
+
+/* ... uses grid layout to layout labels and form elements when the screen is greater than or equal to 600px wide */
